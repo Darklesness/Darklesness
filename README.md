@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Darklesness
-- 👀 I’m interested in Python, C++
-- 🌱 I’m currently learning C++
+- 👀 I’m interested in Python, C++, C#
+- 🌱 I’m currently learning C#
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
