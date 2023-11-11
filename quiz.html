@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Seymour+One&family=Shrikhand&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="quiz-style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+		<title>TRAFFIC SAFETY</title>
+		<script type="text/javascript" src="code.js"></script>
+	</head>
+
+	<body>
+		<button class="button-34" onclick="window.location.href='index.html'">Back</button>
+			<div class = "quiz-screen"> 
+				<div class="question-container">
+					<div class="question" id="quiz-question">Câu 1: Trên đường giao thông, khi hiệu lệnh của người điều khiển giao thông trái với hiệu lệnh của đèn hoặc biển báo thì người tham gia giao thông phải chấp hành theo hiệu lệnh nào?</div>
+				</div>
+				
+				<div class="options-container">
+					<ul class="options">
+						<li class="option">
+							<input type="radio" name="answer"  id="option1" onchange="updateQuestion()">
+							<label class="opt1" for="option1" id ="lbl1">Hiệu lệnh của biển báo hiệu đường bộ.</label>
+						</li>
+						<li class="option">
+							<input type="radio" name="answer" id = "option2" onchange="updateQuestion()">
+							<label class="opt2" for="option2" id ="lbl2">Hiệu lệnh của đèn điều khiển giao thông.</label>
+						</li>
+						<li class="option">
+							<input type="radio" name="answer" id = "option3" onchange="updateQuestion()">
+							<label class="opt3" for="option3" id ="lbl3">Hiệu lệnh của người điều khiển giao thông</label>
+						</li>
+						<li class="option">
+							<input type="radio" name="answer" id = "option4" onchange="updateQuestion()">
+							<label class="opt4" for="option4" id ="lbl4">Hiệu lệnh nào cũng được</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</body>
+</html>
